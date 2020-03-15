@@ -22,4 +22,4 @@ const VueParticlesBg = {
 };
 
 export { ParticlesBg };
-export default VueParticlesBg;
+export default ParticlesBg;
