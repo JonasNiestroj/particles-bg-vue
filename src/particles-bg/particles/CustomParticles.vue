@@ -141,9 +141,7 @@ export default {
       const scaleB = scale
         ? new Proton.Scale(scale[0], scale[1])
         : new Proton.Scale(1, 0.2);
-      const colorB = color
-        ? new Proton.Color(color[0], color[1])
-        : new Proton.Color(colors);
+      const colorB = new Proton.Color(color)
 
       emitter.addBehaviour(alphaB);
       emitter.addBehaviour(scaleB);
