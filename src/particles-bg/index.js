@@ -1,4 +1,4 @@
-import ParticlesBg from "./ParticlesBg";
+import ParticlesBg from "./ParticlesBg.vue";
 
 const components = {
   ParticlesBg: ParticlesBg
@@ -18,7 +18,7 @@ if (typeof window !== "undefined" && window.Vue) {
 
 const VueParticlesBg = {
   install,
-  ...components
+  ParticlesBg
 };
 
 export { ParticlesBg };
